@@ -1,0 +1,50 @@
+body{
+    font-family: Arial;
+    margin: 50px;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    color: #fff;
+    margin: 0px;
+}
+
+p{
+    color: #b2b2b2;
+}
+
+.fundoCaixa{
+    background-color: #111;
+    /* border: 2px solid #fff; */
+    border-radius: 4px;
+    margin: 20px;
+    padding: 30px;
+}
+
+.textoAmarelo{
+    color: #febe01;
+}
+
+.buttons{
+    display: inline-block;
+    color: #332200;
+    background-color: #febe01;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    padding: 10px;
+    height: auto;
+}
+
+.buttons:hover{
+    background-color: #fedf05;
+    transition: 0.5s;
+    box-shadow:  0px 0px 15px 2px rgba(200, 200, 200, 0.3);
+}
+
+/* Algo que pude notar é o comportamento que o padding/margin tem dentro de uma div.*/
+/* Como eu não queria replicar o estilo em todos as tags, utilizar somente o body é mais indicado.*/
+/* Quando uma tag pai (no caso a div aqui), tem um padding específico, os itens dentro deles (Demais tags), ja inicial a partir deste */
